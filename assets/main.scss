@@ -22,13 +22,20 @@
   --size-3xl: 2.441rem;
   --size-4xl: 3.052rem;
 
-  --color-white: #cbecf2;
+  --color-white: #ffffff;
   --color-lightgray: #cccccc;
   --color-gray: #777777;
   --color-black: #000000;
   --color-lightblue: #cbecf2;
   --color-redish: #ff5362;
   --color-darkblue: #3565a4;
+
+  --color-accent: var(--color-redish);
+  --color-surface: var(--color-black);
+  --color-background: var(--color-white);
+  --color-background-accent: var(--color-lightblue);
+  --color-text: var(--color-black);
+  --color-chip-border: var(--color-white);
 
   --lines: -webkit-repeating-linear-gradient(top,transparent 0,transparent 1px,rgba(0,0,0,.25) 1px,rgba(0,0,0,.25) 2px);
 
