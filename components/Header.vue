@@ -5,7 +5,8 @@
     <div class="meta-info">
       <h2>Workshop</h2>
       <div class="chip-container">
-        <OrgChip org="GES"/> <OrgChip org="ID"/> <OrgChip sub="MR"/>
+        <!-- <OrgChip org="GES"/> <OrgChip org="ID"/>  -->
+        <OrgChip org="ID"/><OrgChip sub="MR"/>
       </div>
     </div>
 
@@ -28,7 +29,7 @@ export default {
   flex-direction: column;
   // flex-wrap: wrap;
   background-color: var(--color-background-accent);
-  padding: var(--size-xs) var(--size-4xl) var(--size-xxl) var(--size-4xl);
+  padding: var(--size-l) var(--size-4xl) var(--size-xxl) var(--size-4xl);
   h1 {
     margin: 0;
     height: 1.3em;
