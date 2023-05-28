@@ -1,35 +1,45 @@
 <template>
   <div class="header">
-    <h1>How To Adobe Suite</h1>
+    <div class="header-content">
+      <h1>How To Adobe Suite</h1>
 
-    <div class="meta-info">
-      <h2>Workshop</h2>
-      <div class="chip-container">
-        <!-- <OrgChip org="GES"/> <OrgChip org="ID"/>  -->
-        <OrgChip org="ID"/><OrgChip sub="MR"/>
+      <div class="meta-info">
+        <h2>Workshop</h2>
+        <div class="chip-container">
+          <!-- <OrgChip org="GES"/> <OrgChip org="ID"/>  -->
+          <OrgChip org="ID" /><OrgChip sub="MR" />
+        </div>
       </div>
+      <h3>Abendworkshop mit Bier und Schlechter Musik</h3>
     </div>
 
-    <h3>Abendworkshop mit Bier und Schlechter Musik</h3>
+    <div class="triangle-overlay"></div>
   </div>
 </template>
 
 <script>
-import OrgChip from '@/components/OrgChip.vue'
+import OrgChip from "@/components/OrgChip.vue";
 export default {
   components: {
-    OrgChip
-  }
+    OrgChip,
+  },
 };
 </script>
 
 <style lang="scss">
 .header {
+  z-index: 9999;
+  position: relative;
   display: flex;
   flex-direction: column;
   // flex-wrap: wrap;
   background-color: var(--color-background-accent);
-  padding: var(--size-l) var(--size-4xl) var(--size-xxl) var(--size-4xl);
+
+  .header-content {
+    display: flex;
+    flex-direction: column;
+    padding: var(--size-l) var(--size-4xl) var(--size-xxl) var(--size-4xl);
+  }
   h1 {
     margin: 0;
     height: 1.3em;
@@ -65,6 +75,22 @@ export default {
     justify-content: end;
     align-items: end;
     order: 10;
+  }
+
+  .triangle-overlay {
+    position: absolute;
+    left: 0;
+    top: calc(-10vw + .75px);
+    width: 100%;
+    height: 10vw;
+
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 10vw 100vw;
+    border-color: transparent transparent var(--color-background-accent)
+      transparent;
+    bottom: 0;
   }
 }
 </style>

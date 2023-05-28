@@ -1,8 +1,6 @@
 <template>
   <div id="nuxt-root">
-    <Frame>
-      <ContentDoc path="hello"/> 
-    </Frame>
+    <NuxtPage />
   </div>
 </template>
 
@@ -15,4 +13,5 @@ import "@fontsource/nunito-sans/400-italic.css";
 import "@fontsource/nunito-sans/700.css";
 import "@fontsource/nunito-sans/700-italic.css";
 import '@/assets/fonts/orkney.css';
+
 </script>
