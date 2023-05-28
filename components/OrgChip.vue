@@ -12,29 +12,15 @@ export default {
   ],
   data(){
     return {
-      colors: {
-        "GES": '--color-bright-pink-crayola',
-        "ID": '--color-veronica',
-        "KD": '--color-icterine',
-        "MD": '--color-spring-bud',
-        "AR": '--color-pacific-cyan',
-        "IA": '--color-fluorescent-cyan',
-        "ES": '--color-spring-bud',
-        "MR": '--color-orange-web',
-        "GM": '--color-spring-bud',
-        "NF": '--color-fluorescent-cyan',
-        "HM": '--color-pacific-cyan',
-        "IÄ": '--color-bright-pink-crayola'
-      }
     }
   },
   computed: {
     accent(){
-      return this.colors[this.org ? this.org : this.sub]
+      return this.org ? '--c-'+this.org : '--c-ID-'+this.sub
     },
     style(){
       return {
-        "background-color": this.org ? 'var('+this.accent+')' : 'transparent',
+        "background-color": this.org ? 'var('+this.accent+')' : 'var(--color-white)',
         "color": this.org ? 'var(--color-lightblue)' : 'var('+this.accent+')',
         "border": ' 0.1rem solid var('+this.accent+')'
       }

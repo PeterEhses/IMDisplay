@@ -1,16 +1,18 @@
 <template>
   <div class="header">
     <div class="header-content">
-      <h1>How To Adobe Suite</h1>
+      <h1>{{ title }}</h1>
 
       <div class="meta-info">
-        <h2>Workshop</h2>
+        <h2>{{ type }}</h2>
         <div class="chip-container">
           <!-- <OrgChip org="GES"/> <OrgChip org="ID"/>  -->
-          <OrgChip org="ID" /><OrgChip sub="MR" />
+          <OrgChip v-for="(org, i) in orgs" :org="org" :key="'o'+i"/>
+          <OrgChip v-for="(org, i) in suborgs" :sub="org" :key="'so'+i"/>
+          <!-- <OrgChip sub="MR" /> -->
         </div>
       </div>
-      <h3>Abendworkshop mit Bier und Schlechter Musik</h3>
+      <h3>{{ description }}</h3>
     </div>
 
     <div class="triangle-overlay"></div>
@@ -20,6 +22,13 @@
 <script>
 import OrgChip from "@/components/OrgChip.vue";
 export default {
+  props: [
+    'title',
+    'description',
+    'type',
+    'orgs',
+    'suborgs',
+  ],
   components: {
     OrgChip,
   },
@@ -28,8 +37,6 @@ export default {
 
 <style lang="scss">
 .header {
-  z-index: 9999;
-  position: relative;
   display: flex;
   flex-direction: column;
   // flex-wrap: wrap;
@@ -38,19 +45,23 @@ export default {
   .header-content {
     display: flex;
     flex-direction: column;
-    padding: var(--size-l) var(--size-4xl) var(--size-xxl) var(--size-4xl);
+    padding: var(--size-4xl)  var(--size-4xl) var(--size-xxl) var(--size-4xl);
+    color: var(--color-darkblue);
   }
   h1 {
     margin: 0;
     height: 1.3em;
     order: 1;
+    font-size: var(--size-4xl);
+    white-space: nowrap;
+
   }
   h3 {
     flex-grow: 1;
     min-width: 100%;
     height: 1.3em;
     padding-left: 0.1rem;
-    margin: -0.666em 0 var(--size-m) 0;
+    margin: -0.5em 0 var(--size-m) 0;
     font-size: var(--size-m);
     font-family: "Nunito Sans";
     order: 2;
@@ -59,6 +70,15 @@ export default {
     margin: 0;
     height: 1.3em;
     order: 3;
+    font-size: var(--size-xl);
+    white-space: nowrap;
+
+    // border: 2px solid black;
+    // border-radius: 9999px;
+    // padding: 0 var(--size-s);
+    // color: var(--color-darkblue);
+    opacity: .666;
+
   }
   .meta-info {
     // padding-left: var(--size-4xl);
