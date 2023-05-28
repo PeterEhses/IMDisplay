@@ -112,7 +112,7 @@ export default {
     z-index: 0;
     position: absolute;
     top: 1rem;
-    width: calc(100% - 2rem);
+    width: calc(100% - 1.9rem);
     height: calc(100% - 1.9rem);
   object-fit: cover;
   }
