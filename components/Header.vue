@@ -17,9 +17,9 @@
 <script>
 import OrgChip from '@/components/OrgChip.vue'
 export default {
-  components: [
+  components: {
     OrgChip
-  ]
+  }
 };
 </script>
 

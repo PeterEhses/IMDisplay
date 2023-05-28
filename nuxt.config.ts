@@ -1,24 +1,22 @@
-export default {
-  // Target: https://go.nuxtjs.dev/config-target
-  target: 'static',
-
-  // Global page headers: https://go.nuxtjs.dev/config-head
-  head: {
-    title: 'IMDisplay',
-    meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' }
-    ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
-  },
-
-  // Global CSS: https://go.nuxtjs.dev/config-css
+// https://nuxt.com/docs/api/configuration/nuxt-config
+export default defineNuxtConfig({
+    target: 'static',
+    ssr: true,
+    head: {
+        title: 'IMDisplay',
+        meta: [
+          { charset: 'utf-8' },
+          { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+          { hid: 'description', name: 'description', content: '' },
+          { name: 'format-detection', content: 'telephone=no' }
+        ],
+        link: [
+          { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+        ]
+      },
+    // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    '@assets/main.scss'
+    '@/assets/main.scss'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -34,12 +32,8 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    // https://go.nuxtjs.dev/axios
-    '@nuxtjs/axios',
-    // https://go.nuxtjs.dev/pwa
-    '@nuxtjs/pwa',
-    // https://go.nuxtjs.dev/content
-    '@nuxt/content',
+    '@nuxt/content'
+
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -61,4 +55,4 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   }
-}
+})

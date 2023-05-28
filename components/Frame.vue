@@ -14,9 +14,9 @@
 <script>
 import Header from './Header.vue'
 export default {
-  components: [
+  components: {
     Header
-  ]
+  }
 
 }
 </script>
