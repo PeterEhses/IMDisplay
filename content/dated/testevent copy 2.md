@@ -8,7 +8,7 @@ description:
 type: Rain Dance Ritual
 background: https://www.w3schools.com/howto/rain.mp4
 timeAndDate: '15.07 | 18:00'
-lifetime: 40000
+lifetime: 60000
 
 # Uncomment any org/suborg chips that you want to display
 orgs: [ 

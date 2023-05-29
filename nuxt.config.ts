@@ -1,20 +1,28 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-    target: 'static',
-    ssr: true,
-    head: {
-        title: 'IMDisplay',
-        meta: [
-          { charset: 'utf-8' },
-          { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-          { hid: 'description', name: 'description', content: '' },
-          { name: 'format-detection', content: 'telephone=no' }
-        ],
-        link: [
-          { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-        ]
-      },
-    // Global CSS: https://go.nuxtjs.dev/config-css
+  target: 'static',
+  ssr: true,
+  nitro: {
+    prerender: {
+      crawlLinks: true
+    }
+  }, 
+  app: {
+    baseURL: '/nuxt-github-pages/' // baseURL: '/<repository>/'
+  },
+  head: {
+    title: 'IMDisplay',
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { hid: 'description', name: 'description', content: '' },
+      { name: 'format-detection', content: 'telephone=no' }
+    ],
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+    ]
+  },
+  // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     '@/assets/main.scss'
   ],
