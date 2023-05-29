@@ -1,4 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import { globSync } from "glob" // using glob here but any package you are comfortable with works
+const routes = globSync('./content/**/*.md')
+    .map(path => path.slice(7, -3))
+    
 export default defineNuxtConfig({
   ssr: false,
   // nitro: {
