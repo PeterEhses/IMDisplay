@@ -39,7 +39,7 @@ export default {
       }
     },
   },
-  mounted() {
+  setup() {
     queryContent("/dated/")
       .find()
       .then((c) => {
