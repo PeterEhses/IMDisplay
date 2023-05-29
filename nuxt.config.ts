@@ -12,11 +12,7 @@ export default defineNuxtConfig({
   // nitro: {
   //   preset: 'service-worker'
   // },
-  // content: {
-  //   experimental: {
-  //     clientDb: true
-  //   }
-  // },
+
   app: {
     baseURL: '/IMDisplay/' // baseURL: '/<repository>/'
   },
@@ -62,14 +58,18 @@ export default defineNuxtConfig({
   // },
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
-  pwa: {
-    manifest: {
-      lang: 'en'
-    }
-  },
+  // pwa: {
+  //   manifest: {
+  //     lang: 'en'
+  //   }
+  // },
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
-  content: {},
+  content: {
+    experimental: {
+      clientDb: true
+    }
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
