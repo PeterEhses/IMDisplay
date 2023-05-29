@@ -6,6 +6,9 @@ export default defineNuxtConfig({
   //     crawlLinks: true
   //   }
   // }, 
+  nitro: {
+    preset: 'service-worker'
+  },
   content: {
     experimental: {
       clientDb: true
