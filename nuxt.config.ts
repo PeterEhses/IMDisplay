@@ -1,19 +1,22 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   ssr: false,
+  nitro: {
+    preset: 'service-worker'
+  },
   // nitro: {
   //   prerender: {
   //     crawlLinks: true
   //   }
   // }, 
-  nitro: {
-    preset: 'service-worker'
-  },
-  content: {
-    experimental: {
-      clientDb: true
-    }
-  },
+  // nitro: {
+  //   preset: 'service-worker'
+  // },
+  // content: {
+  //   experimental: {
+  //     clientDb: true
+  //   }
+  // },
   app: {
     baseURL: '/IMDisplay/' // baseURL: '/<repository>/'
   },
