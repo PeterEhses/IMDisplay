@@ -8,7 +8,7 @@ export default defineNuxtConfig({
     }
   }, 
   app: {
-    baseURL: '/nuxt-github-pages/' // baseURL: '/<repository>/'
+    baseURL: '/IMDisplay/' // baseURL: '/<repository>/'
   },
   head: {
     title: 'IMDisplay',
