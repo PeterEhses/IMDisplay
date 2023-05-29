@@ -3,7 +3,7 @@
     <Transition name="slide">
       <Frame
         class="frame"
-        v-if="content.length"
+        v-if="content && content.length"
         @nextFrame="adevanceFrame()"
         :content="content[currentFrame]"
         :type="'poster'"

@@ -2,7 +2,8 @@
 // import { globSync } from "glob" // using glob here but any package you are comfortable with works
 // const routes = globSync('./content/**/*.md')
 //     .map(path => path.slice(7, -3))
-
+let development = process.env.NODE_ENV !== 'production'
+console.log(process.env.NODE_ENV, development ? '/' : '/IMDisplay/')
 export default defineNuxtConfig({
   ssr: true,
   // nitro: {
@@ -18,7 +19,7 @@ export default defineNuxtConfig({
   // },
 
   app: {
-    baseURL: '/IMDisplay/' // baseURL: '/<repository>/'
+    baseURL: development ? '/' : '/IMDisplay/' // baseURL: '/<repository>/'
   },
   head: {
     title: 'IMDisplay',
