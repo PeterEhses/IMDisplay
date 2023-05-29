@@ -1,12 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  target: 'static',
   ssr: true,
-  nitro: {
-    prerender: {
-      crawlLinks: true
-    }
-  }, 
+  // nitro: {
+  //   prerender: {
+  //     crawlLinks: true
+  //   }
+  // }, 
   app: {
     baseURL: '/IMDisplay/' // baseURL: '/<repository>/'
   },
