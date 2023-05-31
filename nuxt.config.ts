@@ -19,7 +19,7 @@ export default defineNuxtConfig({
   // },
 
   app: {
-    baseURL: development ? '/' : '/IMDisplay/' // baseURL: '/<repository>/'
+    // baseURL: development ? '/' : '/IMDisplay/' // baseURL: '/<repository>/'
   },
   head: {
     title: 'IMDisplay',
