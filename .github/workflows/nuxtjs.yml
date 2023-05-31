@@ -82,7 +82,7 @@ jobs:
           server: ngcobalt139.manitu.net
           username: ftp200025081
           password: ${{ secrets.ftp_password }}
-          local-dir: ./dist
+          local-dir: ./dist/
           log-level: verbose
 
 #   # Deployment job
