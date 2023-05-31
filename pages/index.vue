@@ -28,11 +28,16 @@ const { postData } = await useAsyncData('',queryContent("/dated/")
       </Transition>
     </div>
 
-    <FrameCarousel class="frame-carousel" :content="content" @frameChange="activeFrame = $event" />
+    <FrameCarousel class="frame-carousel" :content="content" @frameChange="onFrameChange" />
   </div>
 </template>
 
 <script>
+import dayjs from "dayjs"
+import 'dayjs/locale/de'
+import customParseFormat from 'dayjs/plugin/customParseFormat'
+dayjs.extend(customParseFormat)
+dayjs.locale('de')
 import { ref, toRef } from 'vue'
 
 let _content;
@@ -54,12 +59,25 @@ export default {
         }
       }
     },
+    onFrameChange(e){
+      this.activeFrame = e
+    }
   },
   setup() {
     const content = ref(null)
     queryContent("/dated/")
       .find()
       .then((c) => {
+        c = c.filter((el)=>{
+          if(!el.remove){
+            return true;
+          } else {
+            let removeBy = dayjs().isBefore(dayjs(el.remove, `${dayjs.Ls[dayjs.locale()].formats.L}`).add(1, 'day'))
+            // console.log(dayjs('15.07.1996', 'DD.MM.YYYY'))
+            // console.log(`Date is ${el.remove}, ${dayjs(el.remove, `${dayjs.Ls[dayjs.locale()].formats.L}`)} and will be shown? ${removeBy}, Format ${dayjs.Ls[dayjs.locale()].formats.L}`)
+            return removeBy
+          }
+        })
         c.forEach((el) => {
           el.img = el._path;
           

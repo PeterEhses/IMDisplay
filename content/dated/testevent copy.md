@@ -1,9 +1,9 @@
 ---
 draft: false        # should this be shown?
-# remove: 17.07.2023  # When should this be removed?
+remove: 23.05.2023  # When should this be removed?
 
 # this content will be auto-applied to the layout. Prefer this to putting info in the markdown!
-title: 'Craft Thinking in the Arts'
+title: 'In the Future!'
 description: 'Lucia Pesapona aus Paris und Flávia Vieira aus Porto/São Paulo'
 type: 'Vortragsreihe und Workshops'
 background: testevent.png

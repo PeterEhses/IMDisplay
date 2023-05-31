@@ -1,9 +1,9 @@
 ---
 draft: false        # should this be shown?
-# remove: 17.07.2023  # When should this be removed?
+remove: 31.05.2023  # When should this be removed?
 
 # this content will be auto-applied to the layout. Prefer this to putting info in the markdown!
-title: Look it's raining!
+title: In the Past!
 description: 
 type: Rain Dance Ritual
 background: https://www.w3schools.com/howto/rain.mp4
