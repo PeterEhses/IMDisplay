@@ -14,9 +14,9 @@ const { postData } = await useAsyncData('',queryContent("/dated/")
 <template>
   <div class="page">
     <div class="header-container">
-      <Transition name="fade">
+      <Transition name="fade" v-if="content && content.length">
         <Header
-          v-if="content && content.length"
+          
           class="header"
           :title="content[activeFrame].title"
           :description="content[activeFrame].description"
