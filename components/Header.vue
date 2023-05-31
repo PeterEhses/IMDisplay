@@ -45,7 +45,7 @@ export default {
   .header-content {
     display: flex;
     flex-direction: column;
-    padding: var(--size-4xl)  var(--size-4xl) var(--size-xxl) var(--size-4xl);
+    padding: var(--size-4xl)  var(--size-4xl) var(--size-3xl) var(--size-4xl);
     color: var(--color-darkblue);
   }
   h1 {
