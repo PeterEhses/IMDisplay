@@ -28,7 +28,7 @@ const { postData } = await useAsyncData('',queryContent("/dated/")
       </Transition>
     </div>
 
-    <FrameCarousel :content="content" @frameChange="activeFrame = $event" />
+    <FrameCarousel class="frame-carousel" :content="content" @frameChange="activeFrame = $event" />
   </div>
 </template>
 
@@ -88,9 +88,14 @@ export default {
   .header-container {
       z-index: 9999;
     position: relative;
+    flex-grow: 1;
     .header {
       width: 100%;
     }
+  }
+  .frame-carousel{
+    // width: 100vw;
+    // height: calc(((100vw - 2rem) * 1.414 ) + 2rem)
   }
 }
 </style>

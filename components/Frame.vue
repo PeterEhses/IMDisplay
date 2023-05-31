@@ -117,7 +117,6 @@ export default {
   object-fit: cover;
   }
   .content-wrapper {
-    background-size: cover;
     width: 100%;
     height: 100%;
     // background:red;
@@ -127,6 +126,7 @@ export default {
     padding: 1rem;
     background: var(--color-white);
     .inside-border {
+    background-size: cover !important; 
       background: var(--color-black);
       width: 100%;
       height: 100%;
