@@ -2,10 +2,19 @@
   <div :class="['content-group', active ? 'active' : '']">
     <div class="content-wrapper" :style="styleBorder">
       <div class="inside-border" :style="styleContent">
-        <video autoplay muted loop class="video-bg" :src="this.content.background" v-if="hasVideoBackground"></video>
+        <video
+          autoplay
+          muted
+          loop
+          class="video-bg"
+          :src="this.content.background"
+          v-if="hasVideoBackground"
+        ></video>
         <time v-if="content.timeAndDate">{{ content.timeAndDate }}</time>
         <ContentRenderer
-          v-if="type == 'poster' && content.body && content.body.children.length"
+          v-if="
+            type == 'poster' && content.body && content.body.children.length
+          "
           :value="content"
           class="was-md"
         />
@@ -30,7 +39,7 @@ export default {
     styleBorder() {
       return {
         background: this.accent,
-        "--color-accent": this.accent
+        "--color-accent": this.accent,
       };
     },
     styleContent() {
@@ -43,14 +52,12 @@ export default {
           return {};
       }
     },
-    hasVideoBackground(){
-      if(this.type == 'poster'){
-        if(this.content.background){
-          return [
-            'mp4',
-            'webm',
-            'mov'
-          ].some((suffix) => this.content.background.endsWith(suffix))
+    hasVideoBackground() {
+      if (this.type == "poster") {
+        if (this.content.background) {
+          return ["mp4", "webm", "mov"].some((suffix) =>
+            this.content.background.endsWith(suffix)
+          );
         }
       }
     },
@@ -99,7 +106,7 @@ export default {
 };
 </script>
 
-<style lang='scss'>
+<style lang="scss">
 .content-group {
   // height: 10px;
   height: 100%;
@@ -108,13 +115,13 @@ export default {
   flex-grow: 1;
   // transform: translateY(calc(var(--active-frame) * -100%));
   // transition: 1s ease-in-out;
-  .video-bg{
+  .video-bg {
     z-index: 0;
     position: absolute;
     top: 1rem;
     width: calc(100% - 1.9rem);
     height: calc(100% - 1.9rem);
-  object-fit: cover;
+    object-fit: cover;
   }
   .content-wrapper {
     width: 100%;
@@ -126,7 +133,9 @@ export default {
     padding: 1rem;
     background: var(--color-white);
     .inside-border {
-    background-size: cover !important; 
+      background-size: cover !important;
+      background-repeat: no-repeat !important;
+      background-position: center !important;
       background: var(--color-black);
       width: 100%;
       height: 100%;
@@ -136,11 +145,11 @@ export default {
     display: block;
     width: 100%;
     position: relative;
-    font-family: 'Orkney', sans-serif;
+    font-family: "Orkney", sans-serif;
     text-align: right;
     padding: var(--size-3xl) var(--size-4xl);
-  font-size: 3.052rem;
-  font-weight: 600;
+    font-size: 3.052rem;
+    font-weight: 600;
   }
   .was-md {
     padding: var(--size-4xl) 0;
@@ -165,32 +174,35 @@ export default {
     }
 
     h1,
-    h2, h3, h4 {
+    h2,
+    h3,
+    h4 {
       &:nth-child(n) {
-        left: 1rem ;
-        margin-top: 2rem ;
-        margin-right: 25% ;
-        margin-bottom: 2rem ;
+        left: 1rem;
+        margin-top: 2rem;
+        margin-right: 25%;
+        margin-bottom: 2rem;
       }
       &:nth-child(2n) {
-        left: 1rem ;
-        margin-right: 0 ;
+        left: 1rem;
+        margin-right: 0;
         margin-left: 25%;
-        margin-bottom: 2rem ;
+        margin-bottom: 2rem;
       }
-      &:first-child{
+      &:first-child {
         margin-top: -2rem;
       }
     }
 
-    p, table {
+    p,
+    table {
       z-index: 1;
       // font-size: var(--size-s);
       color: var(--color-black);
       // border: 1rem solid var(--color-accent);
       padding: 1rem;
-        background: var(--color-accent);
-      &:after{
+      background: var(--color-accent);
+      &:after {
         position: absolute;
         inset: 0;
         z-index: -1;
@@ -200,7 +212,7 @@ export default {
         height: calc(100% - 2rem);
         content: "";
         margin: -1rem;
-      background: var(--color-white);
+        background: var(--color-white);
       }
     }
   }
