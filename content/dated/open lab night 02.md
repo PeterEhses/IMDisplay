@@ -1,6 +1,9 @@
 ---
 draft: false        # should this be shown?
 remove: 15.06.2023  # When should this be removed?
+# fullscreen: true
+noborder: true
+# lifetime: 3000
 
 # this content will be auto-applied to the layout. Prefer this to putting info in the markdown!
 title: 'Boris Eldagsen'

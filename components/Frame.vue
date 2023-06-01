@@ -1,5 +1,5 @@
 <template>
-  <div :class="['content-group', active ? 'active' : '']">
+  <div :class="['content-group', active ? 'active' : '', content.noborder ? 'noborder' : '']">
     <div class="content-wrapper" :style="styleBorder">
       <div class="inside-border" :style="styleContent">
         <video
@@ -7,7 +7,7 @@
           muted
           loop
           class="video-bg"
-          :src="this.content.background"
+          :src="content.background"
           v-if="hasVideoBackground"
         ></video>
         <time v-if="content.timeAndDate">{{ content.timeAndDate }}</time>
@@ -108,6 +108,17 @@ export default {
 
 <style lang="scss">
 .content-group {
+
+  &.noborder{
+    .content-wrapper{
+      padding: 0;
+      .video-bg{
+        width: 100%;
+        height: 100%;
+        top: 0;
+      }
+    }
+  }
   // height: 10px;
   height: 100%;
   width: 100%;
