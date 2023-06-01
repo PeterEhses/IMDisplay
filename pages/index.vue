@@ -28,7 +28,7 @@ const { postData } = await useAsyncData('',queryContent("/dated/")
       </Transition>
     </div>
 
-    <FrameCarousel class="frame-carousel" :content="content" :reloadAfter="2" @frameChange="onFrameChange" />
+    <FrameCarousel class="frame-carousel" :content="content" :reloadAfter="4" @frameChange="onFrameChange" />
   </div>
 </template>
 
