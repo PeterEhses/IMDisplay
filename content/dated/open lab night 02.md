@@ -1,5 +1,5 @@
 ---
-draft: false        # should this be shown?
+draft: true        # should this be shown?
 remove: 15.06.2023  # When should this be removed?
 # fullscreen: true
 noborder: true
@@ -10,6 +10,7 @@ title: 'Boris Eldagsen'
 description: 'KI-generierte Bilder: Von Fotografie zu Fauxtografie?'
 type: 'Online-Vortrag'
 background: 170523_Openlabnight_Poster_v3.jpg
+# unmute: true
 # timeAndDate: '14.06 | 18:00'
 
 # Uncomment any org/suborg chips that you want to display

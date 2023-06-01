@@ -27,8 +27,9 @@ suborgs: [
 title: 'Touchdesigner Thursdays'
 description: 'Bring your own laptop & beer'
 type: 'Workshops'
-# timeAndDate: '14.06 | 18:00'
 background: tdts.mp4
+# unmute: true
+# timeAndDate: '14.06 | 18:00'
 
 # put any additional content you want to put in the frame below.
 ---

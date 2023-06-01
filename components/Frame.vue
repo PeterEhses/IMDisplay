@@ -4,8 +4,8 @@
       <div class="inside-border" :style="styleContent">
         <video
           autoplay
-          muted
           loop
+          :muted="!content.unmute"
           class="video-bg"
           :src="content.background"
           v-if="hasVideoBackground"
