@@ -1,6 +1,6 @@
 ---
 draft: false        # should this be shown?
-remove: 31.05.2023  # When should this be removed?
+remove: 31.06.2023  # When should this be removed?
 
 # this content will be auto-applied to the layout. Prefer this to putting info in the markdown!
 title: In the Past!

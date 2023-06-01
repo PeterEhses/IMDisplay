@@ -28,7 +28,7 @@ const { postData } = await useAsyncData('',queryContent("/dated/")
       </Transition>
     </div>
 
-    <FrameCarousel class="frame-carousel" :content="content" @frameChange="onFrameChange" />
+    <FrameCarousel class="frame-carousel" :content="content" :reloadAfter="2" @frameChange="onFrameChange" />
   </div>
 </template>
 
@@ -50,15 +50,6 @@ export default {
   },
   computed: {},
   methods: {
-    adevanceFrame() {
-      if (this.content.length > 1) {
-        if (this.currentFrame >= this.content.length) {
-          this.currentFrame = 0;
-        } else {
-          this.currentFrame += 1;
-        }
-      }
-    },
     onFrameChange(e){
       this.activeFrame = e
     }

@@ -16,10 +16,11 @@
 
 <script>
 export default {
-  props: ["content"],
+  props: ["content", "reloadAfter"],
   data() {
     return {
       currentFrame: 0,
+      roundtrips: 0,
     };
   },
   computed: {
@@ -33,6 +34,13 @@ export default {
       if (this.content.length > 1) {
         if (this.currentFrame >= this.content.length - 1) {
           this.currentFrame = 0;
+          this.roundtrips += 1;
+          console.log(`Shown all cards ${this.roundtrips} times!`)
+          if(this.reloadAfter && this.roundtrips >= this.reloadAfter){
+            this.roundtrips = 0;
+            console.log('reloading!')
+            location.reload();
+          }
         } else {
           this.currentFrame += 1;
         }
