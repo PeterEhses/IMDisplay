@@ -1,5 +1,5 @@
 ---
-draft: true        # should this be shown?
+draft: false        # should this be shown?
 remove: 15.06.2023  # When should this be removed?
 # fullscreen: true
 noborder: true
