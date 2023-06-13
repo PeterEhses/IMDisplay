@@ -1,7 +1,7 @@
 ---
 draft: false        # should this be shown?
 # remove: 15.06.2023  # When should this be removed?
-fullscreen: true
+fullscreen: false
 noborder: true
 # lifetime: 6000
 
@@ -12,7 +12,7 @@ orgs: [
     # 'MD',  # Mode Design
     # 'AR',  # Architektur
     # 'IA',  # Innenarchitektur
-    # 'KD',  # Kommunikationsdesign
+    'KD',  # Kommunikationsdesign
     # 'ES'   # Edelstein und Schmuck
 ]
 suborgs: [
