@@ -1,8 +1,8 @@
 ---
 draft: false        # should this be shown?
 remove: 15.06.2023  # When should this be removed?
-fullscreen: false    
-noborder: false
+fullscreen: true    
+noborder: true
 # lifetime: 6000
 
 # Uncomment any org/suborg chips that you want to display
@@ -27,7 +27,7 @@ suborgs: [
 title: 'Touchdesigner Thursdays'
 description: 'Bring your own laptop & beer'
 type: 'Workshops'
-background: testevent.png # tdts.mp4
+background: tdts.mp4
 # unmute: true
 # timeAndDate: '14.06 | 18:00'
 
