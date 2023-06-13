@@ -42,10 +42,6 @@ timeAndDate: '14.06 | 18:00'                  # the time and date of the event, 
 # Separate text blocks will generate distinct text containers, headings (prefix the line with `# ` for H1, `## ` for H2 and so on, mind the space after #) will be rendered as large text.
 # No other markdown features are implemented and tested as of now. General styling (bold, italic, etc.) might work. 
 ---
-[//]: # This is where the markdown begins. Anything written here will be composited over the backgorund. The only exception are comments like this one!
-[//]: # here's an example of a heading:
 # This is the example file. You shouldn't ever see it in production ;)
-
-[//]: # Here's an example of a paragraph:
 
 paragraphs are easy, don't use any special characters, just write like this!
