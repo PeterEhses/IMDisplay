@@ -5,7 +5,7 @@
 # Commented lines will be ignored and the fields will default to some value defined in code. 
 
 draft: true          # should this be shown?
-# remove: 15.06.2023  # When should this be removed? Must be in standard german date format (dd.mm.yyyy)
+# remove: 18.06.2023  # When should this be removed? Must be in standard german date format (dd.mm.yyyy)
 # fullscreen: true    # should this poster have a footer? 
 # noborder: true      # should this poster have a colored border?
 # lifetime: 6000      # how long (in ms) should the poster be visible?
