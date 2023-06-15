@@ -4,7 +4,7 @@
 # Some are commented (they have  a # in front of them like this line). Remove the # to make them do something.
 # Commented lines will be ignored and the fields will default to some value defined in code. 
 
-draft: false          # should this be shown?
+draft: true          # should this be shown?
 # remove: 15.06.2023  # When should this be removed? Must be in standard german date format (dd.mm.yyyy)
 # fullscreen: true    # should this poster have a footer? 
 # noborder: true      # should this poster have a colored border?
