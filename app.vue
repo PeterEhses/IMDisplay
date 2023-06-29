@@ -5,6 +5,9 @@
 </template>
 
 <script>
+// document.addEventListener('touchstart', function(event){
+//     event.preventDefault();
+// }, {passive: false});
 import "the-new-css-reset/css/reset.css";
 import "@fontsource/nunito-sans/300.css";
 import "@fontsource/nunito-sans/300-italic.css";
