@@ -4,7 +4,7 @@
       <Frame
         class="frame"
         v-if="content && content.length"
-        @nextFrame="adevanceFrame()"
+        @nextFrame="advanceFrame()"
         :content="content[currentFrame]"
         :type="'poster'"
         :active="true"
@@ -29,7 +29,7 @@ export default {
     },
   },
   methods: {
-    adevanceFrame() {
+    advanceFrame() {
       console.log(`frame was #${this.currentFrame}`);
       if (this.content.length > 1) {
         if (this.currentFrame >= this.content.length - 1) {
