@@ -18,8 +18,9 @@ fetch("backend-config.yml", {
 })
   .then((response) => {
     response.text().then((text) => {
+        console.log(text);
       const config = yaml.load(text);
-
+      console.log(config);
       config.load_config_file = false;
       console.log(config);
       init({ config: config });
