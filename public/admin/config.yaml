@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: PeterEhses/IMDisplay
-  branch: feature-decap # Branch to update (optional; defaults to master)
+  branch: master # Branch to update (optional; defaults to master)
   # auth_scope: repo
   # open_authoring: true
   use_graphql: true
