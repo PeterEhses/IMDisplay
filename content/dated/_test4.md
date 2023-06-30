@@ -1,8 +1,14 @@
 ---
-draft: true
+draft: false
 remove: ""
-title: test4
+title: Title
+description: Description
+type: Format
+timeAndDate: DateTime
 unmute: false
+orgs: null
+suborgs:
+  - MR
 fullscreen: false
 noborder: true
 lifetime: 20000
