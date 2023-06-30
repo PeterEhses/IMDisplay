@@ -5,7 +5,7 @@ title: Title
 description: Description
 type: Format
 timeAndDate: DateTime
-background: uploads/anti-pfp.png
+background: uploads/tdts.mp4
 unmute: false
 orgs: null
 suborgs:
