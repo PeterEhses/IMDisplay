@@ -6,8 +6,6 @@
   <div></div>
 </template>
 <script>
-import createReactClass from "create-react-class";
-import React from "react";
 
 import yaml from "js-yaml";
 window.CMS_MANUAL_INIT = true;
@@ -18,9 +16,9 @@ fetch("/backend-config.yml", {
 })
   .then((response) => {
     response.text().then((text) => {
-        console.log(text);
+        // console.log(text);
       const config = yaml.load(text);
-      console.log(config);
+    //   console.log(config);
       config.load_config_file = false;
       console.log(config);
       init({ config: config });
