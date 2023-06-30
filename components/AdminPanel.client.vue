@@ -13,7 +13,7 @@ import yaml from "js-yaml";
 window.CMS_MANUAL_INIT = true;
 import CMS, { init } from "netlify-cms-app";
 
-fetch("backend-config.yml", {
+fetch("/backend-config.yml", {
   credentials: "same-origin",
 })
   .then((response) => {
