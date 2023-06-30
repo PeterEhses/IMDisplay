@@ -1,6 +1,6 @@
 ---
 draft: true
-background: /assets/uploads/anti-pfp.png
 title: "Testing "
+background: /assets/uploads/kitegg_keyvisual6.png
 ---
 t﻿est
