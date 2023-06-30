@@ -2,7 +2,7 @@ backend:
   name: github
   repo: PeterEhses/IMDisplay
   branch: feature-decap # Branch to update (optional; defaults to master)
-  use_graphql: true
+  # use_graphql: true
 
 # publish_mode: editorial_workflow
 media_folder: "assets/uploads" # Media files will be stored in the repo under images/uploads
@@ -15,8 +15,8 @@ collections:
     label: "Posts"
     folder: "content/dated"
     create: true
-    #  identifier_field: "title"
-    slug: "{{year}}/{{month}}/{{day}}_{{fields.title}}"
+    identifier_field: "title"
+    slug: "{{commit_date}}_{{fields.title}}"
     editor:
       preview: false
     summary: "{{fields.title | ''}} || {{commit_author}} || {{commit_date}}"
