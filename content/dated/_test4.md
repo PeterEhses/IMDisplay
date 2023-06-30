@@ -10,6 +10,6 @@ orgs: null
 suborgs:
   - MR
 fullscreen: false
-noborder: true
+noborder: false
 lifetime: 20000
 ---
