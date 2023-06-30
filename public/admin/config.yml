@@ -2,7 +2,9 @@ backend:
   name: github
   repo: PeterEhses/IMDisplay
   branch: feature-decap # Branch to update (optional; defaults to master)
-  # use_graphql: true
+  # auth_scope: repo
+  # open_authoring: true
+  use_graphql: true
 
 # publish_mode: editorial_workflow
 media_folder: "public/uploads" # Media files will be stored in the repo under images/uploads
