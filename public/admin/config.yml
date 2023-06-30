@@ -1,0 +1,130 @@
+backend:
+  name: github
+  repo: PeterEhses/IMDisplay
+  branch: feature-decap # Branch to update (optional; defaults to master)
+  # auth_scope: repo
+  # open_authoring: true
+  use_graphql: true
+
+# publish_mode: editorial_workflow
+media_folder: "public/uploads" # Media files will be stored in the repo under images/uploads
+public_folder: "uploads"
+site_url: "https://IMDisplay.peter-ehses.de"
+display_url: "https://IMDisplay.peter-ehses.de"
+
+collections:
+  - name: "dated"
+    label: "Posts"
+    folder: "content/dated"
+    create: true
+    identifier_field: "title"
+    slug: "{{commit_date}}_{{fields.title}}"
+    editor:
+      preview: false
+    summary: "{{fields.title | ''}} || {{commit_author}} || {{commit_date}}"
+    fields:
+      - {
+          label: "hide",
+          name: "draft",
+          widget: "boolean",
+          default: true,
+          hint: "should this be shown on the displays?",
+        }
+      - {
+          label: "remove by",
+          name: "remove",
+          widget: "date",
+          default: "",
+          format: "dd.mm.yyyy",
+          required: false,
+          hint: "when should this stop being shown?",
+        }
+      - { label: "Title", name: "title", widget: "string", required: true }
+      - {
+          label: "Description",
+          name: "description",
+          widget: "string",
+          required: false,
+        }
+      - {
+          label: "Format",
+          name: "type",
+          widget: "string",
+          required: false,
+          hint: "e.g. Workshop, Vortrag",
+        }
+      - {
+          label: "Time and Date",
+          name: "timeAndDate",
+          widget: "string",
+          required: false,
+          hint: "the time and date of the event, will be displayed top right over the background.",
+        }
+      - {
+          label: "Background",
+          name: "background",
+          widget: "file",
+          required: false,
+        }
+      - {
+          label: "Unmute Video",
+          name: "unmute",
+          widget: "boolean",
+          default: false,
+        }
+      - {
+        label: "Organisations",
+          name: "orgs",
+          widget: "select",
+          options: [
+            {label: 'Gestaltung',
+            value: 'GES'},
+            {label: 'Intermedia Design',
+            value: 'ID'},
+            {label: 'Mode Design',
+            value: 'MD'},
+            {label: 'Architektur',
+            value: 'AR'},
+            {label: 'Innenarchitektur',
+            value: 'IA'},
+            {label: 'Kommunikationsdesign',
+            value: 'KD'},
+            {label: 'Edelstein und Schmuck',
+            value: 'KD'},
+          ],
+          multiple: true, required: false
+      }
+      - {
+        label: "Suborganisations",
+          name: "suborgs",
+          widget: "select",
+          options: [
+            {label: 'Medienräume',
+            value: 'MR'},
+            {label: 'Games',
+            value: 'GM'},
+            {label: 'Narrative Formate',
+            value: 'NF'},
+            {label: 'Hypermedia',
+            value: 'HM'},
+            {label: 'Intermediale Ästhetik',
+            value: 'IÄ'}
+          ],
+          multiple: true, required: false
+      }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+      - {
+          label: "Remove Footer",
+          name: "fullscreen",
+          widget: "boolean",
+          default: false,
+        }
+      - { label: "Remove Border", name: "noborder", widget: "boolean", default: false }
+      - {
+          label: "Lifetime",
+          name: "lifetime",
+          widget: "number",
+          step: 1,
+          default: 20000,
+          hint: "For how many milliseconds will this slide be shown?",
+        }
