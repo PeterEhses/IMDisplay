@@ -5,7 +5,7 @@ title: Title
 description: Description
 type: Format
 timeAndDate: DateTime
-background: /assets/uploads/kitegg_keyvisual6.png
+background: uploads/anti-pfp.png
 unmute: false
 orgs: null
 suborgs:
