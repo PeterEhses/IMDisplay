@@ -1,9 +1,13 @@
 ---
-draft: true
+draft: false
 remove: ""
-title: Hopefully working in prod :(
-description: forcing a commit :)
+title: Somewhat working.
+description: The bad parts at least
+type: Test Commit
+background: uploads/anti-pfp.png
 unmute: false
+suborgs:
+  - IÄ
 fullscreen: false
 noborder: false
 lifetime: 20000
