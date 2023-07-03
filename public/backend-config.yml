@@ -3,6 +3,7 @@ backend:
   repo: PeterEhses/IMDisplay
   branch: master # Branch to update (optional; defaults to master)
   base_url: https://netlify-cms-oauth-imdisplay-jlml6gv35-ehsesp.vercel.app
+  cms_label_prefix: decap-cms/
   # auth_endpoint: '/callback'
   # auth_scope: repo
   # open_authoring: true
