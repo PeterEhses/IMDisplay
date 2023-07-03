@@ -8,7 +8,7 @@ background: uploads/anti-pfp.png
 unmute: false
 suborgs:
   - IÄ
-fullscreen: false
+fullscreen: true
 noborder: false
 lifetime: 20000
 ---
