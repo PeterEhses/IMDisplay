@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 remove: ""
 title: Somewhat working.
 description: The bad parts at least
