@@ -6,5 +6,5 @@ background: uploads/tdmovieout.7.mp4
 unmute: false
 fullscreen: true
 noborder: true
-lifetime: 20000
+lifetime: 60000
 ---
