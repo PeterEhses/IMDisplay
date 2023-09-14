@@ -1,10 +1,10 @@
 ---
-draft: true
+draft: false
 remove: ""
-title: ???
+title: Willkommen
 description: ""
 type: Coming soon...
-background: https://www.intermediadesign.de/wp-content/uploads/2019/05/GEODESIC_2-1826x1280.jpg
+background: uploads/info_welcome.jpg
 unmute: false
 orgs:
   - ID
