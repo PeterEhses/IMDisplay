@@ -2,7 +2,7 @@
 draft: false
 remove: ""
 title: review
-background: uploads/imd_review.jpg
+background: uploads/info_semesterschau.jpg
 unmute: false
 fullscreen: true
 noborder: true
