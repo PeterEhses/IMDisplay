@@ -8,7 +8,7 @@ background: uploads/info_welcome2.jpg
 unmute: false
 orgs:
   - ID
-fullscreen: false
-noborder: false
+fullscreen: true
+noborder: true
 lifetime: 20000
 ---
