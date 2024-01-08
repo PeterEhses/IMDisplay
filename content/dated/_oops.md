@@ -1,10 +1,10 @@
 ---
 draft: false
 remove: ""
-title: Willkommen
+title: HappyNew2024 A
 description: ""
 type: Coming soon...
-background: uploads/info_welcome2.jpg
+background: uploads/stele_happynew2024.jpg
 unmute: false
 orgs:
   - ID
