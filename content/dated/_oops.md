@@ -1,7 +1,7 @@
 ---
 draft: false
 remove: ""
-title: HappyNew2024 A
+title: Happy new 24 a
 description: ""
 type: Coming soon...
 background: uploads/stele_happynew2024.jpg
