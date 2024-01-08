@@ -2,7 +2,7 @@
 draft: false
 remove: ""
 title: Termine_Übersicht :-)
-background: uploads/termine.jpg
+background: uploads/stele_events_2024a.jpg
 unmute: false
 fullscreen: true
 noborder: true
