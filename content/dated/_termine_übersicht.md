@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 remove: ""
 title: Termine_Übersicht 2024
 background: uploads/stele_events_2024b.jpg
