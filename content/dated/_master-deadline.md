@@ -1,8 +1,8 @@
 ---
 draft: false
 remove: ""
-title: Master Deadline
-background: uploads/infostele_januar2024master.jpg
+title: Allg. Fristen
+background: uploads/infostele_januar2024termine1.jpg
 unmute: false
 fullscreen: false
 noborder: false
