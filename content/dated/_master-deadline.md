@@ -4,7 +4,7 @@ remove: ""
 title: Allg. Fristen
 background: uploads/infostele_januar2024termine1.jpg
 unmute: false
-fullscreen: false
-noborder: false
+fullscreen: true
+noborder: true
 lifetime: 20000
 ---
