@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 remove: ""
 title: Allg. Fristen
 background: uploads/infostele_januar2024termine1.jpg
