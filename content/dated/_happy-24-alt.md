@@ -1,8 +1,8 @@
 ---
 draft: true
 remove: ""
-title: Happy 24 alt
-background: uploads/stele_happynew2024alt.jpg
+title: Termine 2024
+background: uploads/infostele_januar2024termine2.jpg
 unmute: false
 fullscreen: true
 noborder: true
