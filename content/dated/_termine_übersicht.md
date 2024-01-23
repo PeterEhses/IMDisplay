@@ -1,7 +1,7 @@
 ---
 draft: false
 remove: ""
-title: Termine_Übersicht 2024
+title: Kurswahl-Termine
 background: uploads/infostele_januar2024abc.jpg
 unmute: false
 fullscreen: true
