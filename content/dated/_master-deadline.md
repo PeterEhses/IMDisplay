@@ -1,7 +1,7 @@
 ---
 draft: false
 remove: ""
-title: Allg. Fristen
+title: Kurswahl
 background: uploads/infostele_januar2024termine1.jpg
 unmute: false
 fullscreen: true
