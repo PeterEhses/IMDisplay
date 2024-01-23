@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 remove: ""
 title: Termine 2024
 background: uploads/infostele_januar2024termine2.jpg
