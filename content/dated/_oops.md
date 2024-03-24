@@ -1,10 +1,10 @@
 ---
 draft: true
 remove: ""
-title: Happy new 24 a
+title: Willkommen, Sommer 24
 description: ""
 type: Coming soon...
-background: uploads/stele_happynew2024.jpg
+background: uploads/infostele_april_2024_willkommen.jpg
 unmute: false
 orgs:
   - ID
