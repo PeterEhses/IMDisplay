@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 remove: ""
 title: Willkommen, Sommer 24
 description: ""
