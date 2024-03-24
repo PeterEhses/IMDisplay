@@ -2,7 +2,7 @@
 draft: false
 remove: ""
 title: Termine 2024
-background: uploads/infostele_januar2024termine2.jpg
+background: uploads/infostele_april2024.jpg
 unmute: false
 fullscreen: true
 noborder: true
