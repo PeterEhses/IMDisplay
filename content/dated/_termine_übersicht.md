@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 remove: ""
 title: Kurswahl-Termine
 background: uploads/infostele_januar2024abc.jpg
