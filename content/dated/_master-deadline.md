@@ -2,7 +2,7 @@
 draft: false
 remove: ""
 title: Semesterschau
-background: uploads/infostele_semesterschau24_1.jpg
+background: uploads/zeichenfläche-27xyz.jpg
 unmute: false
 fullscreen: true
 noborder: true
