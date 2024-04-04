@@ -4,7 +4,7 @@ remove: ""
 title: Willkommen, Sommer 24
 description: ""
 type: Coming soon...
-background: uploads/infostele_april_2024_willkommen.jpg
+background: uploads/zeichenfläche-27-kopie123.jpg
 unmute: false
 orgs:
   - ID
