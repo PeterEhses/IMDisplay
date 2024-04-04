@@ -1,8 +1,8 @@
 ---
-draft: false
+draft: true
 remove: ""
 title: Semesterschau
-background: uploads/zeichenfläche-27xyz.jpg
+background: null
 unmute: false
 fullscreen: true
 noborder: true
