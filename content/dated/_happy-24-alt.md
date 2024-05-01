@@ -6,5 +6,5 @@ background: uploads/termine_mai2024.jpg
 unmute: false
 fullscreen: true
 noborder: true
-lifetime: 20000
+lifetime: 16000
 ---
