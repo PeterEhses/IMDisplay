@@ -6,5 +6,5 @@ background: uploads/infostele_auslandsinfo2024_1.jpg
 unmute: false
 fullscreen: true
 noborder: true
-lifetime: 20000
+lifetime: 16000
 ---
