@@ -1,7 +1,7 @@
 ---
 draft: true
 remove: ""
-title: review
+title: Semesterschau - Ankündigung
 background: uploads/info_semesterschau.jpg
 unmute: false
 fullscreen: true
