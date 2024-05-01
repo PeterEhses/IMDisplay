@@ -2,7 +2,7 @@
 draft: false
 remove: ""
 title: Termine 2024
-background: uploads/termine_april2024.jpg
+background: uploads/termine_mai2024.jpg
 unmute: false
 fullscreen: true
 noborder: true
