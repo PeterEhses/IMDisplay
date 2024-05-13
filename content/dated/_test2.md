@@ -1,10 +1,10 @@
 ---
-draft: true
+draft: false
 remove: ""
-title: X_test2
-background: uploads/tdts.mp4
+title: Designpreis RLP 2024
+background: uploads/designpreis.jpg
 unmute: false
 fullscreen: true
 noborder: true
-lifetime: 20000
+lifetime: 18000
 ---
