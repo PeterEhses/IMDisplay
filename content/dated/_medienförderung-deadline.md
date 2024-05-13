@@ -1,9 +1,9 @@
 ---
 draft: false
 remove: ""
-title: _MEDIENFÖRDERUNG - DEADLINE
+title: "_WANTED "
 description: ""
-background: uploads/info_mf2024a.jpg
+background: uploads/wanted_beamer.jpg
 unmute: false
 fullscreen: true
 noborder: true
