@@ -1,7 +1,7 @@
 ---
 draft: false
 remove: ""
-title: Designpreis RLP 2024
+title: _Designpreis RLP 2024
 background: uploads/designpreis.jpg
 unmute: false
 fullscreen: true
