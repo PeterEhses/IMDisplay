@@ -1,10 +1,11 @@
 ---
-draft: true
+draft: false
 remove: ""
 title: Semesterschau - Ankündigung
-background: uploads/info_semesterschau.jpg
+description: _Souvenir
+background: uploads/souvenir.jpg
 unmute: false
 fullscreen: true
 noborder: true
-lifetime: 20000
+lifetime: 18000
 ---
