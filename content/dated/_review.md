@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 remove: ""
 title: Semesterschau - Ankündigung
 description: _Souvenir
