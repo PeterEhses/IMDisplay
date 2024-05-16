@@ -1,8 +1,8 @@
 ---
-draft: true
+draft: false
 remove: ""
-title: VIDEO - TEST
-background: uploads/tdmovieout.7.mp4
+title: BA-deadline
+background: uploads/ba-anmeldung.jpg
 unmute: false
 fullscreen: true
 noborder: true
