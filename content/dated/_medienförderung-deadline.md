@@ -1,7 +1,7 @@
 ---
 draft: true
 remove: ""
-title: "_WANTED "
+title: "WANTED "
 description: ""
 background: uploads/wanted_beamer.jpg
 unmute: false
