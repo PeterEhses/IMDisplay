@@ -1,7 +1,7 @@
 ---
 draft: true
 remove: ""
-title: _BA-deadline
+title: BA-deadline
 background: uploads/ba-anmeldung.jpg
 unmute: false
 fullscreen: true
