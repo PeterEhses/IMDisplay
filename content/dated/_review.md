@@ -1,9 +1,9 @@
 ---
-draft: true
+draft: false
 remove: ""
-title: Semesterschau - Ankündigung
+title: _Spekulative Systeme
 description: _Souvenir
-background: uploads/souvenir.jpg
+background: uploads/fake.jpg
 unmute: false
 fullscreen: true
 noborder: true
