@@ -7,5 +7,5 @@ background: uploads/detaildevil1.jpg
 unmute: false
 fullscreen: true
 noborder: true
-lifetime: 20000
+lifetime: 120000
 ---
