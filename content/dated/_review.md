@@ -3,9 +3,9 @@ draft: false
 remove: ""
 title: _Spekulative Systeme
 description: _Souvenir
-background: uploads/fake.jpg
+background: uploads/detaildevil1.jpg
 unmute: false
 fullscreen: true
 noborder: true
-lifetime: 18000
+lifetime: 20000
 ---
