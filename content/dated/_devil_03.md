@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 remove: ""
 title: devil_03
 background: uploads/detaildevil3.jpg
