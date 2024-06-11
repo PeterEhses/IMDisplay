@@ -1,10 +1,10 @@
 ---
-draft: true
+draft: false
 remove: ""
 title: devil_02
-background: uploads/detaildevil2.jpg
+background: uploads/fake2.jpg
 unmute: false
 fullscreen: true
 noborder: true
-lifetime: 20000
+lifetime: 8000
 ---
