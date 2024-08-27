@@ -1,7 +1,7 @@
 ---
 draft: false
 remove: ""
-title: _AUSLAND - Erinnerung
+title: _Willkommen
 background: uploads/infostele_sept2024_willkommen.jpg
 unmute: false
 fullscreen: true
