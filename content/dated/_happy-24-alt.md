@@ -2,7 +2,7 @@
 draft: false
 remove: ""
 title: _Termine 2024
-background: uploads/infostele_okto2024.jpg
+background: uploads/plakat-travelling_gr.jpg
 unmute: false
 fullscreen: true
 noborder: true
