@@ -2,7 +2,7 @@
 draft: false
 remove: ""
 title: _Termine 2024
-background: uploads/creajeune.jpg
+background: uploads/semesterschau_ws_2024.jpg
 unmute: false
 fullscreen: true
 noborder: true
