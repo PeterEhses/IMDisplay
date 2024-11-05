@@ -2,9 +2,9 @@
 draft: false
 remove: ""
 title: _Info-Abend 19.11.
-background: uploads/infostele_termine_nov2024.jpg
+background: uploads/semesterschau_ws_2024.jpg
 unmute: false
 fullscreen: true
 noborder: true
-lifetime: 16000
+lifetime: 60000
 ---
