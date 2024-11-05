@@ -6,5 +6,5 @@ background: uploads/semesterschau_ws_2024.jpg
 unmute: false
 fullscreen: true
 noborder: true
-lifetime: 16000
+lifetime: 60000
 ---
