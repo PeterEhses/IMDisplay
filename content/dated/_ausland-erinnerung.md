@@ -2,7 +2,7 @@
 draft: true
 remove: ""
 title: _Willkommen
-background: uploads/infostele_sept2024_willkommen.jpg
+background: uploads/semesterschau_ws_2024.jpg
 unmute: false
 fullscreen: true
 noborder: true
