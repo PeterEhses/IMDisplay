@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 remove: ""
 title: _Termine 2024
 background: uploads/semesterschau_ws_2024.jpg
