@@ -1,8 +1,8 @@
 ---
-draft: true
+draft: false
 remove: ""
 title: _Termine 2024
-background: uploads/semesterschau_ws_2024.jpg
+background: uploads/danke_24.jpg
 unmute: false
 fullscreen: true
 noborder: true
