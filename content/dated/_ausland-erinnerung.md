@@ -6,5 +6,5 @@ background: uploads/ausland19.11.jpg
 unmute: false
 fullscreen: true
 noborder: true
-lifetime: 48000
+lifetime: 25000
 ---
