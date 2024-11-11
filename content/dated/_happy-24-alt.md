@@ -6,5 +6,5 @@ background: uploads/danke_24.jpg
 unmute: false
 fullscreen: true
 noborder: true
-lifetime: 48000
+lifetime: 25000
 ---
