@@ -1,10 +1,10 @@
 ---
-draft: true
+draft: false
 remove: ""
-title: _Willkommen
-background: uploads/ausland19.11.jpg
+title: _Stalker
+background: uploads/stalker.jpg
 unmute: false
 fullscreen: true
 noborder: true
-lifetime: 25000
+lifetime: 20000
 ---
