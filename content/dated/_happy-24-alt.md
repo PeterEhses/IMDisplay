@@ -6,5 +6,5 @@ background: uploads/was_wollt_ihr.jpg
 unmute: false
 fullscreen: true
 noborder: true
-lifetime: 120000
+lifetime: 25000
 ---
