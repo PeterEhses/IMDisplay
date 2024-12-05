@@ -1,8 +1,8 @@
 ---
 draft: false
 remove: ""
-title: 50 fps test
-background: uploads/50fps.mp4
+title: 25 fps test
+background: uploads/25fps.mp4
 unmute: false
 fullscreen: true
 noborder: true
