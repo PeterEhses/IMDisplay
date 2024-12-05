@@ -1,10 +1,10 @@
 ---
-draft: true
+draft: false
 remove: ""
-title: _Info-Abend 19.11.
-background: uploads/semesterschau_ws_2024.jpg
+title: 50 fps test
+background: uploads/50fps.mp4
 unmute: false
 fullscreen: true
 noborder: true
-lifetime: 60000
+lifetime: 10000
 ---
