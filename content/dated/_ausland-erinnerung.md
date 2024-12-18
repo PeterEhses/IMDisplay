@@ -1,10 +1,10 @@
 ---
-draft: true
+draft: false
 remove: ""
-title: 30_fps_test
-background: uploads/30fps.mp4
+title: Sidebolts
+background: uploads/sidebolds2_i1.mp4
 unmute: false
 fullscreen: true
 noborder: true
-lifetime: 10000
+lifetime: 13000
 ---
