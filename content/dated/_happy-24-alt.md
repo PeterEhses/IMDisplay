@@ -6,5 +6,5 @@ background: uploads/ausland_deadline.jpg
 unmute: false
 fullscreen: true
 noborder: true
-lifetime: 60038
+lifetime: 25000
 ---
