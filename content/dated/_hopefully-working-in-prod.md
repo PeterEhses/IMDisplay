@@ -1,14 +1,14 @@
 ---
-draft: true
+draft: false
 remove: ""
-title: Somewhat working.
+title: Schraube 1
 description: The bad parts at least
 type: Test Commit
-background: uploads/anti-pfp.png
+background: uploads/figure.mp4
 unmute: false
 suborgs:
   - IÄ
 fullscreen: true
-noborder: false
-lifetime: 20000
+noborder: true
+lifetime: 7000
 ---
