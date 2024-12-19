@@ -1,10 +1,10 @@
 ---
-draft: true
+draft: false
 remove: ""
-title: Sidebolts
-background: uploads/sidebolds2_i1.mp4
+title: "2025"
+background: uploads/infostele_prost2025.jpg
 unmute: false
 fullscreen: true
 noborder: true
-lifetime: 13000
+lifetime: 60000
 ---
