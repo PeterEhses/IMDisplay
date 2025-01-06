@@ -1,8 +1,8 @@
 ---
-draft: true
+draft: false
 remove: ""
-title: 25 fps test
-background: uploads/25fps.mp4
+title: Koyaanisqatsi
+background: uploads/koyaanisqatsi.jpg
 unmute: false
 fullscreen: true
 noborder: true
