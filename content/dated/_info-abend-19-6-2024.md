@@ -6,5 +6,5 @@ background: uploads/koyaanisqatsi.jpg
 unmute: false
 fullscreen: true
 noborder: true
-lifetime: 10000
+lifetime: 15000
 ---
