@@ -1,7 +1,7 @@
 ---
 draft: false
 remove: ""
-title: ausland - Deadline
+title: ausland - deadline
 background: uploads/ausland_2025_neu.jpg
 unmute: false
 fullscreen: true
