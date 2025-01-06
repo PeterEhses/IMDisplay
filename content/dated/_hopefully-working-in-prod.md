@@ -1,14 +1,14 @@
 ---
-draft: true
+draft: false
 remove: ""
-title: Schraube 1
-description: The bad parts at least
-type: Test Commit
-background: uploads/figure.mp4
+title: "z k m "
+description: ""
+type: ""
+background: uploads/zkm_exkursion.jpg
 unmute: false
 suborgs:
   - IÄ
 fullscreen: true
 noborder: true
-lifetime: 7000
+lifetime: 15000
 ---
