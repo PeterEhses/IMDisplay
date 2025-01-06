@@ -1,10 +1,10 @@
 ---
 draft: true
 remove: ""
-title: _Termine 2024
-background: uploads/ausland_deadline.jpg
+title: Termine 2025 / 1
+background: uploads/termine2025_1.jpg
 unmute: false
 fullscreen: true
 noborder: true
-lifetime: 25000
+lifetime: 15000
 ---
