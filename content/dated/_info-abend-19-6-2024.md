@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 remove: ""
 title: Koyaanisqatsi
 background: uploads/koyaanisqatsi.jpg
