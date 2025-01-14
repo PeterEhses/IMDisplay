@@ -10,5 +10,5 @@ suborgs:
   - IÄ
 fullscreen: true
 noborder: true
-lifetime: 15000
+lifetime: 20000
 ---
