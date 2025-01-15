@@ -1,10 +1,10 @@
 ---
-draft: true
+draft: false
 remove: ""
-title: Test 3
-background: uploads/test3.mp4
+title: BA Anmeldung
+background: uploads/ba_frist.jpg
 unmute: false
 fullscreen: true
 noborder: true
-lifetime: 10000
+lifetime: 15000
 ---
