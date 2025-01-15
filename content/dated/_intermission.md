@@ -2,7 +2,7 @@
 draft: false
 remove: ""
 title: BA Anmeldung
-background: uploads/ba_frist.jpg
+background: uploads/ba_frist1.jpg
 unmute: false
 fullscreen: true
 noborder: true
