@@ -1,11 +1,11 @@
 ---
-draft: true
+draft: false
 remove: ""
-title: "WANTED "
+title: Berufsfelder_Marie
 description: ""
-background: uploads/wanted_beamer.jpg
+background: uploads/berufsfelder_20sek.mp4
 unmute: false
 fullscreen: true
 noborder: true
-lifetime: 16000
+lifetime: 20000
 ---
