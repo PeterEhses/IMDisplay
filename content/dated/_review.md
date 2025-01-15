@@ -1,11 +1,11 @@
 ---
-draft: true
+draft: false
 remove: ""
-title: _Spekulative Systeme
+title: Ravin
 description: _Souvenir
-background: uploads/stehle_canon.jpg
+background: uploads/test_new_again0001-0100edited.mp4
 unmute: false
 fullscreen: true
 noborder: true
-lifetime: 20000
+lifetime: 9000
 ---
