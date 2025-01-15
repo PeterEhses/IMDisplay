@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 remove: ""
 title: BA Anmeldung
 background: uploads/ba_frist1.jpg
