@@ -2,7 +2,7 @@
 draft: false
 remove: ""
 title: Testing manual file upload
-background: commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4
+background: https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4
 unmute: true
 orgs:
   - GES
