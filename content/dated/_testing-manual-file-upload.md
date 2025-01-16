@@ -2,9 +2,11 @@
 draft: false
 remove: ""
 title: Testing manual file upload
-background: uploads/Gay_Pride_Flag.svg.png
-unmute: false
+background: commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4
+unmute: true
+orgs:
+  - GES
 fullscreen: true
-noborder: true
-lifetime: 100
+noborder: false
+lifetime: 20000
 ---
