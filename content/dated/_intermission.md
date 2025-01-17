@@ -1,10 +1,10 @@
 ---
 draft: false
 remove: ""
-title: BA Anmeldung
-background: uploads/ba_frist2.jpg
+title: Anmeldungen
+background: uploads/ba_frist4.jpg
 unmute: false
 fullscreen: true
 noborder: true
-lifetime: 15000
+lifetime: 20000
 ---
