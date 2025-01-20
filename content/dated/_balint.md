@@ -1,10 +1,10 @@
 ---
-draft: true
+draft: false
 remove: ""
-title: Balint
-background: uploads/cavalrytest.mp4
+title: LUX
+background: uploads/lux.jpg
 unmute: false
 fullscreen: true
 noborder: true
-lifetime: 12000
+lifetime: 15000
 ---
