@@ -1,11 +1,11 @@
 ---
-draft: true
+draft: false
 remove: ""
 title: Ravin
 description: _Souvenir
-background: uploads/test_new_again0001-0100edited.mp4
+background: uploads/druckvertikal.png
 unmute: false
 fullscreen: true
 noborder: true
-lifetime: 9000
+lifetime: 20000
 ---
