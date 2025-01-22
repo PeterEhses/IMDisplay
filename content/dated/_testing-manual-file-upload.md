@@ -1,13 +1,13 @@
 ---
-draft: true
+draft: false
 remove: ""
-title: Testing manual file upload
-background: https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4
+title: Conrad
+background: uploads/konrad_federkeil_screen_test.mp4
 unmute: false
 orgs:
   - GES
 suborgs: null
 fullscreen: true
-noborder: false
-lifetime: 20000
+noborder: true
+lifetime: 15000
 ---
