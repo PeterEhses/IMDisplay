@@ -1,10 +1,10 @@
 ---
-draft: true
+draft: false
 remove: ""
-title: _Designpreis RLP 2024
-background: uploads/designpreis.jpg
+title: RAVIN II
+background: uploads/ravin_test_20sek_intermedialeästhetik_1.mp4
 unmute: false
 fullscreen: true
 noborder: true
-lifetime: 18000
+lifetime: 20000
 ---
