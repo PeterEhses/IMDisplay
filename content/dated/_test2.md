@@ -2,7 +2,7 @@
 draft: false
 remove: ""
 title: Balint
-background: uploads/balint1.mp4
+background: uploads/balint3.mp4
 unmute: false
 fullscreen: true
 noborder: true
