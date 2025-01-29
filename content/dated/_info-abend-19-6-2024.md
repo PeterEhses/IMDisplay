@@ -1,10 +1,10 @@
 ---
-draft: true
+draft: false
 remove: ""
-title: Koyaanisqatsi
-background: uploads/koyaanisqatsi.jpg
+title: Fabian
+background: uploads/fabia_witting_30_fps.mov
 unmute: false
 fullscreen: true
 noborder: true
-lifetime: 15000
+lifetime: 20000
 ---
