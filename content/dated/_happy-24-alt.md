@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 remove: ""
 title: Termine 2025 / 1
 background: uploads/termine2025_1.jpg
