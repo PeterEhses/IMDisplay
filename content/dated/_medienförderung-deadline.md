@@ -1,9 +1,9 @@
 ---
-draft: true
+draft: false
 remove: ""
-title: Berufsfelder_Marie
+title: Lennart1
 description: ""
-background: uploads/berufsfelder_20sek.mp4
+background: uploads/lennart_figure_halfres.mp4
 unmute: false
 fullscreen: true
 noborder: true
