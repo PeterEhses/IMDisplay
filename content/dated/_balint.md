@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 remove: ""
 title: LUX
 background: uploads/lux.jpg
