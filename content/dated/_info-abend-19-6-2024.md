@@ -2,7 +2,7 @@
 draft: false
 remove: ""
 title: Fabian
-background: uploads/fabia_witting_30_fps.mov
+background: uploads/ak_30fps.mp4
 unmute: false
 fullscreen: true
 noborder: true
