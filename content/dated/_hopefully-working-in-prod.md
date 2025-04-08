@@ -1,14 +1,14 @@
 ---
-draft: true
+draft: false
 remove: ""
-title: "z k m "
+title: Semesterschau
 description: ""
 type: ""
-background: uploads/zkm_exkursion.jpg
+background: uploads/stehle4k_kürzer.mp4
 unmute: false
 suborgs:
   - IÄ
 fullscreen: true
 noborder: true
-lifetime: 20000
+lifetime: 60000
 ---
