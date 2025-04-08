@@ -1,8 +1,8 @@
 ---
-draft: true
+draft: false
 remove: ""
-title: LUX
-background: uploads/lux.jpg
+title: Semesterschau
+background: uploads/semesterschau25.jpg
 unmute: false
 fullscreen: true
 noborder: true
