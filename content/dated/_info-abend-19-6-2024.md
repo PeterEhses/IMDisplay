@@ -1,8 +1,8 @@
 ---
-draft: true
+draft: false
 remove: ""
-title: Fabian
-background: uploads/ak_30fps.mp4
+title: Ausland
+background: uploads/auslandsinfomail2025.jpg
 unmute: false
 fullscreen: true
 noborder: true
