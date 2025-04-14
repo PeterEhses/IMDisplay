@@ -105,7 +105,7 @@ jobs:
 #     - name: ⬇️ Download all workflow run artifacts
 #       uses: actions/download-artifact@v3
 #     - name: 📂 Sync files
-#       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+#       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
 #       with:
 #         server: ngcobalt139.manitu.net
 #         username: ftp200025081
