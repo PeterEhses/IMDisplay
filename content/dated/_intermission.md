@@ -2,7 +2,7 @@
 draft: true
 remove: ""
 title: Anmeldungen
-background: uploads/ba_frist4.jpg
+background: uploads/werkschau_einreichungen.jpg
 unmute: false
 fullscreen: true
 noborder: true
