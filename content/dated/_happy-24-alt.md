@@ -2,7 +2,7 @@
 draft: false
 remove: ""
 title: Termine 2025 / 5
-background: uploads/termine_mai2025.jpg
+background: uploads/termine_mai2025_2.jpg
 unmute: false
 fullscreen: true
 noborder: true
