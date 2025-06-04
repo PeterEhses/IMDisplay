@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 remove: ""
 title: Semesterschau
 background: uploads/semesterschau25.jpg
