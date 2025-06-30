@@ -2,9 +2,9 @@
 draft: false
 remove: ""
 title: Anmeldungen
-background: uploads/werkschau_einreichungen.jpg
+background: uploads/werkschau_deadline.jpg
 unmute: false
 fullscreen: true
 noborder: true
-lifetime: 20000
+lifetime: 15000
 ---
