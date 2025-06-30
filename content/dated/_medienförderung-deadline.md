@@ -1,11 +1,11 @@
 ---
 draft: true
 remove: ""
-title: Lennart1
+title: after myth
 description: ""
-background: uploads/lennart_figure_halfres.mp4
+background: uploads/aftermyth_stele.jpg
 unmute: false
 fullscreen: true
 noborder: true
-lifetime: 20000
+lifetime: 30000
 ---
