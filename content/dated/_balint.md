@@ -1,10 +1,10 @@
 ---
-draft: true
+draft: false
 remove: ""
 title: Semesterschau
-background: uploads/semesterschau25.jpg
+background: uploads/final_ohne_text.jpg
 unmute: false
 fullscreen: true
 noborder: true
-lifetime: 15000
+lifetime: 60000
 ---
