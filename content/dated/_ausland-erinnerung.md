@@ -1,10 +1,10 @@
 ---
-draft: true
+draft: false
 remove: ""
 title: ausland - deadline
-background: uploads/ausland_2025_neu.jpg
+background: uploads/pgs4.jpg
 unmute: false
 fullscreen: true
 noborder: true
-lifetime: 15000
+lifetime: 60000
 ---
