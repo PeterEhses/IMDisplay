@@ -3,7 +3,7 @@ draft: false
 remove: ""
 title: after myth
 description: ""
-background: uploads/aftermyth_stele.jpg
+background: uploads/interpro.jpg
 unmute: false
 fullscreen: true
 noborder: true
