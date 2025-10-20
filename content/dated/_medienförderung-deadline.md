@@ -3,7 +3,7 @@ draft: false
 remove: ""
 title: after myth
 description: ""
-background: uploads/interpro.jpg
+background: uploads/werkschau.jpg
 unmute: false
 fullscreen: true
 noborder: true
