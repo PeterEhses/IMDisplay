@@ -1,8 +1,8 @@
 ---
 draft: true
 remove: ""
-title: ausland - deadline
-background: uploads/pgs4.jpg
+title: Ausland 26/27
+background: uploads/auslandsaufruf.jpg
 unmute: false
 fullscreen: true
 noborder: true
