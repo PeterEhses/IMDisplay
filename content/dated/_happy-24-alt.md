@@ -1,10 +1,10 @@
 ---
-draft: true
+draft: false
 remove: ""
-title: Termine 2025 / 5
-background: uploads/termine_mai2025_2.jpg
+title: NEUJAHR 26
+background: uploads/neujahr2026.jpg
 unmute: false
 fullscreen: true
 noborder: true
-lifetime: 20000
+lifetime: 16000
 ---
