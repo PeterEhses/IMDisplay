@@ -6,5 +6,5 @@ background: uploads/auslandsaufruf.jpg
 unmute: false
 fullscreen: true
 noborder: true
-lifetime: 60000
+lifetime: 24000
 ---
