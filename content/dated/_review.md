@@ -3,9 +3,9 @@ draft: false
 remove: ""
 title: Q+A
 description: ""
-background: uploads/ruven.jpg
+background: uploads/3termine_januar.jpg
 unmute: false
 fullscreen: true
 noborder: true
-lifetime: 16000
+lifetime: 20000
 ---
