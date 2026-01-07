@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 remove: ""
 title: NEUJAHR 26
 background: uploads/neujahr2026.jpg
