@@ -1,11 +1,11 @@
 ---
-draft: true
+draft: false
 remove: ""
-title: Marie
+title: Q+A
 description: ""
-background: uploads/berufsfelder2_20sek.mp4
+background: uploads/ruven.jpg
 unmute: false
 fullscreen: true
 noborder: true
-lifetime: 20000
+lifetime: 16000
 ---
