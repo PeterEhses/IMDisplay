@@ -3,9 +3,9 @@ draft: false
 remove: ""
 title: Q+A
 description: ""
-background: uploads/3termine_januar.jpg
+background: uploads/3termine_januar1.jpg
 unmute: false
 fullscreen: true
 noborder: true
-lifetime: 20000
+lifetime: 26000
 ---
