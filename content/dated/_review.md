@@ -7,5 +7,5 @@ background: uploads/3termine_januar4.jpg
 unmute: false
 fullscreen: true
 noborder: true
-lifetime: 26000
+lifetime: 30000
 ---
