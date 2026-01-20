@@ -1,8 +1,8 @@
 ---
-draft: true
+draft: false
 remove: ""
 title: Semesterschau
-background: uploads/final_ohne_text.jpg
+background: uploads/wertstoffhoffnung3.jpg
 unmute: false
 fullscreen: true
 noborder: true
