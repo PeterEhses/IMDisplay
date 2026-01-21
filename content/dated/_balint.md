@@ -2,7 +2,7 @@
 draft: false
 remove: ""
 title: Semesterschau
-background: uploads/wertstoffhoffnung3.jpg
+background: uploads/revue0123.jpg
 unmute: false
 fullscreen: true
 noborder: true
