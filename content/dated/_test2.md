@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 remove: ""
 title: Game Jam
 background: uploads/plakat.jpg
