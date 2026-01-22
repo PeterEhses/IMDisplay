@@ -1,10 +1,10 @@
 ---
 draft: true
 remove: ""
-title: Balint
-background: uploads/balint3.mp4
+title: Game Jam
+background: uploads/plakat.jpg
 unmute: false
 fullscreen: true
 noborder: true
-lifetime: 20000
+lifetime: 12000
 ---
