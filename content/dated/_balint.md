@@ -6,5 +6,5 @@ background: uploads/revue0123.jpg
 unmute: false
 fullscreen: true
 noborder: true
-lifetime: 60000
+lifetime: 15000
 ---
